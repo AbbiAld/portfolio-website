@@ -1,0 +1,130 @@
+/*****BASE STYLES******/
+
+body {
+ margin: 0;
+}
+
+h1 {
+	font-family: "Fredericka the Great", cursive;
+	font-size: 60px;
+	margin: 215px 0 0 0;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: "Fredericka the Great", cursive;
+	font-size: 36px;
+	margin-top: 0;
+}
+
+h3 {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h4 {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+h5 {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+p {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+/*****GRID*****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+/*****HEADER*****/
+
+header {
+	text-align: center;
+	color: white;
+	height: 768px;
+	width: 100%;
+	background-image: url(../img/background-icons.png), linear-gradient(130deg, #001689, #acc9e8);
+	background-repeat: no-repeat, no-repeat;
+	background-position: left top, center;
+	background-size: cover, cover
+}
+
+header h5 {
+	margin: 25px 0 265px 0;
+}
+
+header p {
+	text-transform: uppercase;
+	margin: 0 0 12px;
+}
+
+header img {
+
+}
+
+/*****NAVIGATION*****/
+
+nav {
+	padding-top: 50px;
+	text-align: right;
+}
+
+
+
+nav ul, nav li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding-left: 60px;
+
+}
+
+nav a {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/*****ABOUT******/
+
+#about {
+	height: 500px;
+	margin: 0;
+	padding: 100px 0 0;
+}
+
+#about p {
+	font-size: 21px;
+	line-height: 36px;
+}
+
+/*****WORK*****/
+
+/*****CONTACT******/
+
+/*****FOOTER******/
