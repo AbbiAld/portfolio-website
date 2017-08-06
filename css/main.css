@@ -15,6 +15,7 @@ h2 {
 	font-family: "Fredericka the Great", cursive;
 	font-size: 36px;
 	margin-top: 0;
+	font-weight: normal;
 }
 
 h3 {
@@ -113,18 +114,63 @@ nav a:hover {
 /*****ABOUT******/
 
 #about {
-	height: 500px;
+	height: 400px;
 	margin: 0;
 	padding: 100px 0 0;
+	color: #0D204A;
 }
 
 #about p {
 	font-size: 21px;
 	line-height: 36px;
+	padding-right: 50px;
 }
 
 /*****WORK*****/
 
+#work {
+	background-color: #0D204A;
+	color: white;
+	padding-top: 100px;
+	height: 500px;
+	text-align: center;
+}
+
 /*****CONTACT******/
 
+#contact {
+	color: #0D204A;
+	padding-top: 100px;
+}
+
+#contact h2 {
+	text-align: center;
+}
+#contact h3 {
+	margin-top: 0;
+}
+
+#contact h5 {
+	line-height: 36px;
+}
+
+#form {
+	text-align: center;
+	color: #0D204A;
+}
+
+input {
+	color: #0D204A;
+	
+}
+
 /*****FOOTER******/
+footer {
+	padding: 100px 0 50px;
+}
+
+footer p {
+	color: #0D204A;
+	text-align: center;
+	font-weight: 700;
+}
