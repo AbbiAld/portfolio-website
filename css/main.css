@@ -55,6 +55,11 @@ p {
 	float: left;
 }
 
+.third-width {
+	width: 400px;
+	float: left;
+}
+
 /*****HEADER*****/
 
 header {
@@ -136,6 +141,18 @@ nav a:hover {
 	text-align: center;
 }
 
+#work h2 {
+	margin-bottom: 75px;
+}
+
+.work-sample {
+	width: 320px;
+	height: 240px;
+	margin-left: 40px;
+	border: solid 5px white;
+
+}
+
 /*****CONTACT******/
 
 #contact {
@@ -145,6 +162,7 @@ nav a:hover {
 
 #contact h2 {
 	text-align: center;
+	margin-bottom: 75px;
 }
 #contact h3 {
 	margin-top: 0;
@@ -154,15 +172,67 @@ nav a:hover {
 	line-height: 36px;
 }
 
-#form {
-	text-align: center;
-	color: #0D204A;
+#insta-btn {
+	padding-left: 230px;
 }
 
-input {
-	color: #0D204A;
-	
+#contact img {
+	width: 45px;
 }
+
+#linkedin-btn {
+	padding-left: 50px;
+}
+
+form {
+  margin: 0 auto;
+  width: 600px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+form div {
+	padding-left: 150px;
+}
+
+input, textarea {
+  font: 1em "open sans condensed";
+  color: #0D204A;
+  width: 400px;
+  padding-left: 20px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  border: 1px solid #0D204A;
+}
+
+input:focus, textarea:focus {
+  border-color: #0D204A;
+}
+
+
+textarea {
+  height: 9em;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 275px;
+}
+
+button {
+  width: 150px;
+  background-color: #0D204A;
+  color: white;
+  font: 1em "open sans condensed";
+  border: none;
+}
+
+
+
 
 /*****FOOTER******/
 footer {
