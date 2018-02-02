@@ -1,5 +1,9 @@
 /*****BASE STYLES******/
 
+/*html {
+	width: 100%;
+}*/
+
 body {
  margin: 0;
 }
@@ -7,7 +11,6 @@ body {
 h1 {
 	font-family: "Fredericka the Great", cursive;
 	font-size: 60px;
-	margin: 215px 0 0 0;
 	font-weight: normal;
 }
 
@@ -45,27 +48,28 @@ p {
 /*****GRID*****/
 
 .full-width {
-	width: 1200px;
 	margin: 0 auto;
-	clear: both;
+	width: 100%;
+	max-width: 300px;
 }
 
 .half-width {
-	width: 600px;
-	float: left;
 }
 
 .third-width {
-	width: 400px;
-	float: left;
 }
+
+.horizontal-row {
+	display: flex;
+	flex-direction: column;
+}
+
 
 /*****HEADER*****/
 
 header {
 	text-align: center;
 	color: white;
-	height: 768px;
 	width: 100%;
 	background-image: url(../img/background-icons.png), linear-gradient(130deg, #001689, #acc9e8);
 	background-repeat: no-repeat, no-repeat;
@@ -73,8 +77,12 @@ header {
 	background-size: cover, cover
 }
 
+header h1 {
+	margin : .5em 0;
+}
+
 header h5 {
-	margin: 25px 0 265px 0;
+	margin: 0 0 1em;
 }
 
 header p {
@@ -90,17 +98,19 @@ header img {
 
 nav {
 	padding-top: 50px;
-	text-align: right;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 0;
 }
 
 
-
 nav ul, nav li {
-	display: inline;
 	list-style: none;
 	margin: 0;
-	padding-left: 60px;
-
 }
 
 nav a {
@@ -119,8 +129,6 @@ nav a:hover {
 /*****ABOUT******/
 
 #about {
-	height: 400px;
-	margin: 0;
 	padding: 100px 0 0;
 	color: #0D204A;
 }
@@ -138,20 +146,20 @@ nav a:hover {
 
 #work {
 	background-color: #0D204A;
+	padding: 50px 0;
 	color: white;
-	padding-top: 100px;
-	height: 500px;
 	text-align: center;
 }
 
-#work h2 {
-	margin-bottom: 75px;
+#work .third-width {
+	padding-bottom: 20px;
 }
 
+
+
 .work-sample {
-	width: 320px;
-	height: 240px;
-	margin-left: 40px;
+	width: 250px;
+	height: 250px;
 	border: solid 5px white;
 
 }
@@ -175,9 +183,6 @@ nav a:hover {
 	line-height: 36px;
 }
 
-#github-btn {
-	padding-left: 200px;
-}
 
 
 #contact img {
@@ -185,6 +190,209 @@ nav a:hover {
 	padding-right: 30px;
 }
 
+
+form {
+  margin: 0 auto;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+
+input, textarea {
+  font: 1em "open sans condensed";
+  color: #0D204A;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  border: 1px solid #0D204A;
+}
+
+input:focus, textarea:focus {
+  border-color: #0D204A;
+}
+
+
+textarea {
+  height: 9em;
+  resize: vertical;
+}
+
+.button {
+
+}
+
+button {
+  width: 150px;
+  background-color: #0D204A;
+  color: white;
+  font: 1em "open sans condensed";
+  border: none;
+}
+
+.socialmedia-btns {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+
+
+/*****FOOTER******/
+footer {
+	padding: 100px 0 50px;
+}
+
+footer p {
+	color: #0D204A;
+	text-align: center;
+	font-weight: 700;
+}
+
+/*-------------END MAIN/MOBILE STYLES----------------*/
+
+/*****MEDIA QUERIES*****/
+
+@media screen and (min-width: 768px) {
+
+/*****GRID******/	
+.full-width {
+	max-width: 750px;
+
+}
+
+.half-width {
+
+}
+
+.third-width {
+
+}
+
+.vertical-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.horizontal-row {
+	flex-direction: row;
+}
+
+/*****HEADER*****/
+
+header {
+		height: 768px;
+}
+
+header h1 {
+		margin: 215px 0 0 0;
+}
+
+header h5 {
+	margin: 25px 0 265px 0;
+}
+
+
+/*****NAVIGATION*****/
+
+nav {
+	padding-top: 50px;
+	text-align: right;
+}
+
+nav ul {
+	justify-content: flex-end;
+}
+
+nav ul, nav li {
+	list-style: none;
+	margin: 0;
+}
+
+/*****ABOUT*****/
+
+#about {
+		height: 400px;
+}
+
+/*****WORK*****/
+
+#work {
+		height: 500px;
+		padding-top: 100px;
+}
+
+#work h2 {
+	margin-bottom: 75px;
+}
+
+
+
+/********CONTACT FORM*********/
+
+form div + div {
+  margin-top: 1em;
+}
+
+form div {
+	padding-left: 150px;
+}
+
+input, textarea {
+  font: 1em "open sans condensed";
+  color: #0D204A;
+  width: 450px;
+  padding-left: 20px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  border: 1px solid #0D204A;
+}
+
+input:focus, textarea:focus {
+  border-color: #0D204A;
+}
+
+
+textarea {
+  height: 9em;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 275px;
+}
+
+button {
+  width: 150px;
+  background-color: #0D204A;
+  color: white;
+  font: 1em "open sans condensed";
+  border: none;
+}
+
+/********LARGE/FULL SIZE SCREENS*****/
+
+@media screen and (min-width: 1200px) {
+
+	.full-width {
+		max-width: 1200px;
+	}
+
+	.half-width {
+		max-width: 600px;
+	}
+
+	.third-width {
+		max-width: 400px;
+	}
+
+
+/********CONTACT FORM*********/
 
 form {
   margin: 0 auto;
@@ -232,17 +440,4 @@ button {
   font: 1em "open sans condensed";
   border: none;
 }
-
-
-
-
-/*****FOOTER******/
-footer {
-	padding: 100px 0 50px;
-}
-
-footer p {
-	color: #0D204A;
-	text-align: center;
-	font-weight: 700;
 }

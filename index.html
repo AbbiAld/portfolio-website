@@ -2,6 +2,7 @@
 <html lang=en>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Abbi Aldrich's Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -10,7 +11,7 @@
 	<body>
 		<!--Header-->
 		<header>
-			<div class="full-width">
+			<div class="full-width vertical-column">
 
 			<!--Navigation-->
 			<nav>
@@ -31,9 +32,9 @@
 		</header>
 		
 		<!--About-->
-		<section id="about">
-			<div class="full-width">
-				<h2>I bring beautiful designs to life.</h2>
+		<section class="full-width" id="about">
+			<h2>I bring beautiful designs to life.</h2>
+			<div class="horizontal-row">
 				<div class="half-width">
 					<p class="left-column">Hi, I’m Abbi Aldrich, a front-end web developer based in Dallas.  My journey into the tech world was inspired by a deep love of making things that work well.  And that’s exactly what I bring to coding - writing clean code that works.  With a background in Education and Linguistics, I believe that communication is key to successful relationships with clients, users, and collaborators.</p>
 				</div>
@@ -47,35 +48,37 @@
 
 		<!--Work-->
 		<section id="work">
-			<div class="full-width">
-				<h2>Work</h2>
+		<div class="full-width">
+			<h2>Work</h2>
+			<div class="horizontal-row">
 				<div class="third-width">
-					<div class="work-sample">
-					</div>
+					<a href="http://blog.abbialdrich.com"><img class="work-sample" src="img/work-sample-blog.jpg" alt="Blog at abbialdrich.com" /></a>
 				</div>
 				<div class="third-width">
-					<div class="work-sample">
-					</div>
+					<a href="#"><img class="work-sample" src="img/work-sample-gqg.jpg" alt="Garland Quilt Guild Website" /></a>
 				</div>
 				<div class="third-width">
-					<div class="work-sample">
-					</div>
+					<a href="blog.abbialdrich.com"><img class="work-sample" src="img/work-sample-blog.jpg" alt="Blog at abbialdrich.com" /></a>
 				</div>
 			</div>
+		</div>
 		</section>
 
 		<!--Contact-->
 		<section id="contact">
 			<div class="full-width">
 				<h2>Contact</h2>
+				<div class="horizontal-row">
 				<div class="half-width">
 					<h3>I'd love to hear from you</h3>
 					<h5> I'm excited to hear about your next project.<br>
 					I'm available for full-time employment in Dallas, Texas.</h5>
 					<h4>Leave me a quick note, shoot me an email, or find me online.</h4>
-					<a id="github-btn" href="https://github.com/AbbiAld "><img src="img/github-icon.png" alt="GitHub Icon"></a>
-					<a id="insta-btn" href="https://www.instagram.com/abbi.aldrich/"><img src="img/instagram-icon.png" alt="Instagram Icon"></a>
-					<a id="linkedin-btn" href="https://www.linkedin.com/in/abigail-aldrich-5496b387/"><img src="img/linkedin-icon.png" alt="Linkedin Icon"></a>
+					<div class="socialmedia-btns">
+						<a id="github-btn" href="https://github.com/AbbiAld "><img src="img/github-icon.png" alt="GitHub Icon"></a>
+						<a id="insta-btn" href="https://www.instagram.com/abbi.aldrich/"><img src="img/instagram-icon.png" alt="Instagram Icon"></a>
+						<a id="linkedin-btn" href="https://www.linkedin.com/in/abigail-aldrich-5496b387/"><img src="img/linkedin-icon.png" alt="Linkedin Icon"></a>
+					</div>
 				</div>
 
 				<div class="half-width" id="form">
@@ -95,6 +98,7 @@
 					</form>
 				</div>
 			</div>
+		</div>
 		</section>
 
 		<!--Footer-->
