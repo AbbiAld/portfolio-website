@@ -66,7 +66,7 @@
 				</div>
 
 				<div class="half-width">
-					<p>I take mockups and psd designs and bring them to life with HTML, CSS, and JS interactivity.  I also create custom WordPress solutions that help your business or organization grow. First and foremost, I keep user experience at the heart of my work, finding creative solutions that can be used time and time again. </p>
+					<p>I take mockups and psd designs and bring them to life with HTML, CSS, and JS interactivity.  I also create custom WordPress sites that help your business or organization grow. First and foremost, I keep user experience at the heart of my work, finding creative solutions that can be used time and time again. </p>
 					<p>Check out projects I’ve worked on below.<br>
 					<img id="about-arrow" src="img/blue-down-arrow.png" alt="Down Arrow" >
 					</p>
