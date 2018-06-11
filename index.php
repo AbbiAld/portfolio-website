@@ -40,6 +40,7 @@
 				<ul>
 					<li><a href=#about>About</a></li>
 					<li><a href=#work>Work</a></li>
+					<li><a href="https://blog.abbialdrich.com">Blog</a></li>
 					<li><a href=#contact>Contact</a></li>
 				</ul>
 			</nav>
@@ -65,7 +66,7 @@
 				</div>
 
 				<div class="half-width">
-					<p>I take mockups and psd designs and bring them to life with HTML, CSS, and JS interactivity.   First and foremost, I keep user experience at the heart of my work, finding creative solutions that can be used time and time again. </p>
+					<p>I take mockups and psd designs and bring them to life with HTML, CSS, and JS interactivity.  I also create custom WordPress solutions that help your business or organization grow. First and foremost, I keep user experience at the heart of my work, finding creative solutions that can be used time and time again. </p>
 					<p>Check out projects I’ve worked on below.<br>
 					<img id="about-arrow" src="img/blue-down-arrow.png" alt="Down Arrow" >
 					</p>
@@ -80,21 +81,21 @@
 			<h2>Work</h2>
 			<div class="horizontal-row">
 				<div class="third-width">
-					<a class="work-sample" href="#">
+					<a class="work-sample" href="https://accelerate.abbialdrich.com">
 						<figure class="work-sample-img">
-							<img src="img/work-sample-gqg.jpg" alt="Garland Quilt Guild Website" />
+							<img src="img/work-sample-accelerate.jpg" alt="Accelerate Marketing Concept Site" />
 							<div class="sample-description">
-								<h4 class="sample-header">Garland Quilt Guild</h4>
-								<p>A complete custom re-design I created for the Garland Quilt Guild, including a custom WordPress theme. </p>
-								<p class="skills">Created using Wordpress, HTML, CSS, and jQuery</p>
+								<h4 class="sample-header">Accelerate Marketing</h4>
+								<p>A complete custom re-design I created for Accelerate Marketing - a sample client, including a custom WordPress theme. </p>
+								<p class="skills">Created using Wordpress, HTML, and CSS</p>
 						</div>
 						</figure>
 					</a>
 				</div>
 				<div class="third-width">
-					<a class="work-sample" href="blog.abbialdrich.com">
+					<a class="work-sample" href="https://blog.abbialdrich.com">
 						<figure class="work-sample-img">
-							<img src="img/work-sample-blog.jpg" alt="Blog at abbialdrich.com" />
+							<img src="img/work-sample-blog-2.jpg" alt="Blog at abbialdrich.com" />
 							<div class="sample-description">
 								<h4 class="sample-header">blog.abbialdrich.com</h4>
 								<p>My personal blog, created as a concept project and customized for my own uses.</p>
@@ -105,7 +106,7 @@
 					</a>
 				</div>
 				<div class="third-width">
-					<a class="work-sample" href="http://roguepickings.abbialdrich.com">
+					<a class="work-sample" href="https://roguepickings.abbialdrich.com">
 						<figure class="work-sample-img">
 							<img src="img/work-sample-rp.jpg" alt="Rogue Pickings Concept Site" />
 							<div class="sample-description">
