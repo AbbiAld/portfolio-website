@@ -317,7 +317,7 @@ textarea {
   width: 100%;
 }
 
-#submit {
+#submit-btn {
   width: 150px;
   padding: 5px 0;
   background-color: #0D204A;
@@ -326,7 +326,7 @@ textarea {
   border: none;
 }
 
-#submit:hover {
+#submit-btn:hover {
 	cursor: pointer;
 }
 

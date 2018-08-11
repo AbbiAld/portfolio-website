@@ -1,5 +1,29 @@
 <?php 
-	if (isset($_POST["submit"])) {
+
+	// reCaptcha info
+	$secret = "6Ld8hWkUAAAAAEATVGl8NLh2EFu4XUJlshIA4J7U";
+	$remoteip = $_SERVER["REMOTE_ADDR"];
+	$url = "https://www.google.com/recaptcha/api/siteverify";
+
+	$response = $_POST["g-recaptcha-response"];
+
+	// Curl Request
+	$curl = curl_init();
+	curl_setopt($curl, CURLOPT_URL, $url);
+	curl_setopt($curl, CURLOPT_POST, true);
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($curl, CURLOPT_POSTFIELDS, array(
+	    'secret' => $secret,
+	    'response' => $response,
+	    'remoteip' => $remoteip
+	    ));
+	$curlData = curl_exec($curl);
+	curl_close($curl);
+
+	// Parse data
+	$recaptcha = json_decode($curlData, true);
+
+	if ($recaptcha["success"]) {
 		$name = $_POST['user_name'];
 		$email = $_POST['user_email'];
 		$message = $_POST['user_message'];
@@ -29,6 +53,13 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans+Condensed:300,700" rel="stylesheet">
+		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+		<script>
+        function onSubmit(data) {
+            document.getElementById("form").submit(); 
+            grecaptcha.execute();
+        }
+    </script>
 	</head>
 	<body>
 		<!--Header-->
@@ -138,8 +169,8 @@
 					</div>
 				</div>
 
-				<div class="half-width" id="form">
-					<form name="contact-form" method="post" action="index.php#form">
+				<div class="half-width">
+					<form id="form" name="contact-form" method="post" action="index.php#form">
 						<div>
 							<input type="text" id="name" name="user_name" required placeholder="Your Name">
 						</div>
@@ -149,9 +180,9 @@
 						<div>
 							<textarea id="msg" name="user_message" required placeholder="Write a message"></textarea>
 						</div>
-						<div class="button">
-							<input id="submit" name="submit" type="submit" value="Send">
-						</div>
+						<button id="submit-btn" class="g-recaptcha" data-sitekey="6Ld8hWkUAAAAABlqd-GBXB1-X6JxSEnPy2q9-hMb" data-callback="onSubmit" data-size="invisible">
+    					Send
+						</button>
 						<div id="result">
 							<?php echo $result; ?>
 						</div>
