@@ -112,6 +112,30 @@
 			<h2>Work</h2>
 			<div class="horizontal-row">
 				<div class="third-width">
+					<a class="work-sample" href="https://barnescarpentry.com">
+						<figure class="work-sample-img">
+							<img src="img/work-sample-barnes.png" alt="Barnes Carpentry" />
+							<div class="sample-description">
+								<h4 class="sample-header">Barnes Carpentry</h4>
+								<p>A fully responsive site built for Barnes Carpentry, a carpenter in Austin, Texas.</p>
+								<p class="skills"> Created using HTML, CSS, PHP, and JavaScript</p>
+							</div>
+						</figure>
+					</a>
+				</div>
+				<div class="third-width">
+					<a class="work-sample" href="https://abbi-a-anagrams.herokuapp.com">
+						<figure class="work-sample-img">
+							<img src="img/work-sample-anagram.png" alt="Anagram Generator App" />
+							<div class="sample-description">
+								<h4 class="sample-header">Anagram Generator App</h4>
+								<p>An app that generates anagrams for any word entered.</p>
+								<p class="skills"> Created using Ruby, Sinatra, ActiveRecord, HTML and CSS</p>
+							</div>
+						</figure>
+					</a>
+				</div>
+				<div class="third-width">
 					<a class="work-sample" href="https://accelerate.abbialdrich.com">
 						<figure class="work-sample-img">
 							<img src="img/work-sample-accelerate.jpg" alt="Accelerate Marketing Concept Site" />
@@ -120,6 +144,30 @@
 								<p>A complete custom re-design I created for Accelerate Marketing - a sample client, including a custom WordPress theme. </p>
 								<p class="skills">Created using Wordpress, HTML, and CSS</p>
 						</div>
+						</figure>
+					</a>
+				</div>
+				<div class="third-width">
+					<a class="work-sample" href="https://roguepickings.abbialdrich.com">
+						<figure class="work-sample-img">
+							<img src="img/work-sample-rp.jpg" alt="Rogue Pickings Concept Site" />
+							<div class="sample-description">
+								<h4 class="sample-header">Rogue Pickings</h4>
+								<p>A fully responsive concept site for a small food truck business.</p>
+								<p class="skills"> Created using HTML and CSS</p>
+							</div>
+						</figure>
+					</a>
+				</div>
+				<div class="third-width">
+					<a class="work-sample" href="https://unplugged.abbialdrich.com">
+						<figure class="work-sample-img">
+							<img src="img/work-sample-unplugged.png" alt="Unplugged Concept Site" />
+							<div class="sample-description">
+								<h4 class="sample-header">Unplugged</h4>
+								<p>A fully responsive concept site for a music news site.</p>
+								<p class="skills"> Created using HTML and CSS</p>
+							</div>
 						</figure>
 					</a>
 				</div>
@@ -134,18 +182,6 @@
 							</div>
 						</figure>
 
-					</a>
-				</div>
-				<div class="third-width">
-					<a class="work-sample" href="https://roguepickings.abbialdrich.com">
-						<figure class="work-sample-img">
-							<img src="img/work-sample-rp.jpg" alt="Rogue Pickings Concept Site" />
-							<div class="sample-description">
-								<h4 class="sample-header">Rogue Pickings</h4>
-								<p>A fully responsive concept site for a small food truck business.</p>
-								<p class="skills"> Created using HTML and CSS</p>
-							</div>
-						</figure>
 					</a>
 				</div>
 			</div>

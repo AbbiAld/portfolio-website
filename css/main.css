@@ -193,8 +193,8 @@ nav a:hover {
 
 
 #work .third-width {
-	margin-bottom: 2em;
-		border: solid 5px white;
+	margin: 0 0 2em;
+	border: solid 5px white;
 }
 
 .work-sample-img img {
@@ -474,7 +474,6 @@ nav li {
 
 #work .third-width {
 	width: 45%;
-	margin: 0 0 2em;
 }
 
 
@@ -503,7 +502,7 @@ nav li {
 
 	#work .third-width {
 		width: 30%;
-		margin-bottom: 0;
+
 }
 
 /********WORK*********/
