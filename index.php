@@ -112,6 +112,18 @@
 			<h2>Work</h2>
 			<div class="horizontal-row">
 				<div class="third-width">
+					<a class="work-sample" href="https://kidsintech.org">
+						<figure class="work-sample-img">
+							<img src="img/work-sample-kit.jpg" alt="Kids in Tech" />
+							<div class="sample-description">
+								<h4 class="sample-header">Kids in Tech, Inc.</h4>
+								<p>A fully responsive site built for Kids in Tech, a nonprofit organization that offers afterschool tech clubs for kids.</p>
+								<p class="skills"> Created using Wordpress, Underscores Starter Theme, PHP, Advanced Custom Fields, HTML, and CSS. </p>
+							</div>
+						</figure>
+					</a>
+				</div>
+				<div class="third-width">
 					<a class="work-sample" href="https://barnescarpentry.com">
 						<figure class="work-sample-img">
 							<img src="img/work-sample-barnes.png" alt="Barnes Carpentry" />
@@ -187,6 +199,18 @@
 			</div>
 		</div>
 		</section>
+		<section id="testimonials">
+			<div class="full-width">
+				<h2>What People are Saying</h2>
+				<div class="horizontal-row">
+					<div class="half-width">
+						<p>"Abbi did a great job of revamping our website. She is organized, thorough, creative, and pays attention to detail."</p>
+						<p class="attribution">-Olu Ibrahim, Kids in Tech founder</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
 
 		<!--Contact-->
 		<section id="contact">
@@ -231,7 +255,7 @@
 		<!--Footer-->
 		<footer>
 			<div class="full-width">
-			<p>Abbi Aldrich  &bull;  abbi.aldrich [at] gmail [dot] com</p>
+			<p>Abbi Aldrich  &bull;  hello [at] abbialdrich [dot] com</p>
 		</div>
 		</footer>
 

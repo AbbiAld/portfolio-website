@@ -19,9 +19,11 @@ h1 {
 
 h2 {
 	font-family: "Fredericka the Great", cursive;
-	font-size: 3em;
 	margin: 0;
 	font-weight: normal;
+	padding: 0 0 1em;
+	font-size: 2.75em;
+	text-align: center;
 }
 
 h3 {
@@ -165,11 +167,10 @@ nav a:hover {
 
 #about h2 {
     font-size: 2.75em;
-    padding: 0 0 1em;
     text-align: center;
 }
 
-#about p {
+#about p, #testimonials p {
 	font-size: 1.75em;
 	line-height: 36px;
 	text-align: center;
@@ -186,7 +187,6 @@ nav a:hover {
 
 #work h2 {
 	font-size: 2.75em;
-	padding: 0 0 1em;
 	text-align: center;
 }
 
@@ -244,6 +244,24 @@ nav a:hover {
 .sample-skills {
 	font-style: italic;
 }
+
+/*****TESTIMONIALS******/
+#testimonials {
+	background-color: #5a74bb;
+	color: white;
+	padding: 7em 0;
+}
+
+#testimonials .horizontal-row {
+	justify-content: center;
+}
+
+#testimonials .attribution {
+	text-align: right;
+	font-style: italic;
+	padding-top: 1em;
+}
+
 /*****CONTACT******/
 
 #contact {
@@ -255,9 +273,7 @@ nav a:hover {
 
 
 #contact h2 {
-	font-size: 2.75em;
-	text-align: center;
-	padding: 0 0 1em;
+
 }
 #contact h3 {
 	font-size: 2em;
